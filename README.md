@@ -2,26 +2,26 @@
 ![image](https://user-images.githubusercontent.com/103492272/168607807-201c00fc-9656-493d-98db-20dfdbcb4bd4.png)
 
 ## Задание 1. 
-Вывести имена всех когда-либо обслуживаемых пассажиров авиакомпаний
-Решение:
+Вывести имена всех когда-либо обслуживаемых пассажиров авиакомпаний  
+Решение:  
 SELECT name FROM Passenger
 
 ## Задание 2. 
-Вывести названия всеx авиакомпаний
-Решение:
+Вывести названия всеx авиакомпаний  
+Решение:  
 SELECT name FROM Company
 
 ## Задание 3. 
-Вывести все рейсы, совершенные из Москвы
-Решение:
-SELECT * FROM Trip
-WHERE town_from LIKE 'Moscow'
+Вывести все рейсы, совершенные из Москвы  
+Решение:  
+SELECT * FROM Trip  
+WHERE town_from LIKE 'Moscow'  
 
 ## Задание 4. 
-Вывести имена людей, которые заканчиваются на "man"
-Решение:
-SELECT name FROM Passenger
-WHERE name LIKE '%man'
+Вывести имена людей, которые заканчиваются на "man"  
+Решение:  
+SELECT name FROM Passenger  
+WHERE name LIKE '%man'  
 
 ## Задание 5. 
 Решение:
